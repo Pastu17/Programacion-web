@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+.titulo1 {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6,
+.div-7,
+.div-8 {
+  width: 100%;
+  padding: 1rem;
+  background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  .fila {
+    flex-direction: column;
+  }
+
+  .div-1,
+  .div-2 {
+    width: 100%;
+  }
+
+  footer {
+    background-color: black;
+  }
+}

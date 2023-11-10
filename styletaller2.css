@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'M PLUS Rounded 1c';
+    margin: 0;
+    padding: 0;
+    background: #c3c1bd;  
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+div {
+    background-color: #3a3835;  
+    border: 1px solid #686662;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.ejm {
+    background: #959390;  
+}
+
+.ej {
+    background: #959390; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3a3835; 
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.boton-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1eeeb;  
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boton-regresar:hover {
+    background-color: #3a3835;  
+}
+
+

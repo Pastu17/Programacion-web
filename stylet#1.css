@@ -1,0 +1,111 @@
+:root{
+  /* CSS HEX */
+--space-cadet: #636363;
+--oxford-blue: #85827e;
+--beige: #d1b39f;
+--buff: #ffecd1;
+--old-rose: #ffd1b3;
+}
+body{
+   width: 100hw;
+   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: var(--beige);
+  font-size: 14px;
+}
+h1{
+  color:black;
+  font-size: 28px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--space-cadet);
+  border-style: ridge;
+  border-radius: 15px;
+  padding: 15px;
+}
+.formulario{
+  width: 50%;
+  background-color:var(--oxford-blue);
+}
+table{
+  background-color:var(--oxford-blue);
+  /* width: 250px;
+  height: 300px; */
+}
+th{
+  background-color:white;
+  padding: 15px 10px 2px 10 px;
+  color: black;
+  text-align: center;
+}
+td{
+  width: 200px;
+  text-align: center;
+  border-style: dotted;
+  border-color: var(--oxford-blue);
+
+}
+.alerta{
+  background-color: white;
+  color:black;
+  font-style: italic;
+  font-weight: 900;
+}
+.columna1{
+  width: 20%;
+}
+.columna2{
+  width: 25%;
+}
+#clave{
+  background-color: var(--oxford-blue);
+  color: black ;
+}
+.fila{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  padding: 15px ;
+  background-color: white;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.caja{
+  width: 40px;
+  height:30px ;
+  margin: 15px;
+  color: black;
+  background-color: var(--oxford-blue);
+  border-radius: 90px;
+  text-align: center;
+  /* gap: 15px; */
+}
+.color1{
+  color: black;
+  background-color:blue;
+}
+
+.color2{
+  color: black;
+  background-color: blue;
+}
+.color3{
+  color: black;
+  background-color: blue;
+}
+.color4{
+  color: black;
+  background-color: var(--oxford-blue);
+}
+.caja:hover{
+  background-color: white;
+  color: rgb(214, 14, 14);
+  border-style: solid;
+  border-color: var(--oxford-blue) ;
+}

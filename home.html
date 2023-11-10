@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Deportes Extremos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deportes Extremos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#actividades">Actividades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>¡Bienvenido a nuestra página de deportes extremos! Somos apasionados por la adrenalina y la emoción. Ofrecemos una amplia variedad de actividades para los amantes de la aventura.</p>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="actividades">
+            <h2>Actividades</h2>
+            <div class="actividad">
+                <h3>Paracaidismo</h3>
+                <p>Experimenta la libertad de volar en caída libre desde un avión a miles de metros de altura.</p>
+            </div>
+            <div class="actividad">
+                <h3>Escalada en Roca</h3>
+                <p>Desafía tus límites escalando las montañas más imponentes y rocas empinadas.</p>
+            </div>
+            <div class="actividad">
+                <h3>Surf de Olas Gigantes</h3>
+                <p>Domina las olas más grandes y emocionantes del mundo en nuestras increíbles playas.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <div class="container">
+        <footer>
+            <p>&copy; 2023 Deportes Extremos</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function scrollToTarget(target) {
+                document.querySelector(target).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+
+            document.querySelectorAll('nav ul li a').forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    scrollToTarget(targetId);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

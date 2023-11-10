@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #636363;
+  }
+  
+  .contenedor {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #sopaDeLetras {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 2px;
+  }
+  
+  .celda {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .celda.seleccionada {
+    background-color: #ffa07a;
+  }
+  
+  .celda.encontrada {
+    background-color: #90ee90;
+  }

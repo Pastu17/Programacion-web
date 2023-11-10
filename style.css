@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#686662 ;
+}
+
+header {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    border: 20%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    border-radius: 15%;
+    background-color: black;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    border-radius: 15%;
+    padding: 2em;
+    background-color: #ccc;
+}
+
+.actividad {
+    margin-bottom: 2em;
+}
+
+form label,
+form input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 15%;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: black;
+    border: 5px solid ;
+    cursor: pointer;
+}
